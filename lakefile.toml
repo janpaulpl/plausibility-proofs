@@ -1,0 +1,14 @@
+name = "plausibility-proofs"
+version = "0.1.0"
+defaultTargets = ["plausibility-proofs"]
+
+[[lean_lib]]
+name = "PlausibilityProofs"
+
+[[lean_exe]]
+name = "plausibility-proofs"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
